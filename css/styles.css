@@ -23,13 +23,16 @@ body {
 }
 
 .menu-item {
+    color: var(--title-text-color);
     text-decoration: none;
 }
-header address {
+.address {
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+    font-style: normal;
 }
 
 h2, h3 {
@@ -42,6 +45,7 @@ h2, h3 {
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
+    word-spacing: -1ch;
 }
 
 .logo-web {
@@ -54,6 +58,7 @@ h2, h3 {
 
 .logo-footer {
     color: var(--primary-white-color);
+    word-spacing: -1ch;
 }
 
 a:hover,
@@ -67,9 +72,16 @@ a:focus {
     line-height: 1.88;
 }
 
+.order-button:hover,
+.order-button:focus {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+}
+
 button:hover,
 button:focus {
-    color: var(--accent-color);
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
 
 .order-service {
@@ -80,6 +92,7 @@ button:focus {
 .order-button {
     color: var(--primary-white-color);
     background: var(--accent-color);
+    font-family: inherit;
 }
 
 .our-team {
@@ -113,8 +126,15 @@ footer {
     line-height: 1.7;
 }
 
+.footer-address {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
 .location {
     color: var(--primary-white-color);
+    font-style: normal;
 }
 
 h1 {
@@ -147,20 +167,28 @@ h1 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    font-family: inherit;
 }
 
-.items h3 {
+.item-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    text-decoration: none;
 }
 
-.items p {
+.item-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
+    text-decoration: none;
+    color: var(--primary-text-color);
 }
 
 .list {
     list-style: none;
+}
+
+.item {
+    text-decoration: none;
 }
