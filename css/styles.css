@@ -8,14 +8,48 @@
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
 }
 
-.title {
+.header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.menu {
     color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.menu-item {
+    text-decoration: none;
+}
+header address {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+h2, h3 {
+    color: var(--title-text-color);
+}
+
+.logo {
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
 }
 
 .logo-web {
     color: var(--accent-color);
+}
+
+.logo-studio {
+    color: var(--title-text-color);
 }
 
 .logo-footer {
@@ -25,6 +59,12 @@ body {
 a:hover,
 a:focus {
     color: var(--accent-color);
+}
+
+.order-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
 }
 
 button:hover,
@@ -46,10 +86,81 @@ button:focus {
     background: #F5F4FA;
     ;
 }
+
+.our-team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.our-team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.our-team p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
 footer {
     background: var(--background-section-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .location {
     color: var(--primary-white-color);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+
+.precedence h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.precedence p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.what-we-do {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.filters {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.items h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.items p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.list {
+    list-style: none;
 }
