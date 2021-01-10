@@ -192,3 +192,6 @@ h1 {
 .item {
     text-decoration: none;
 }
+.curent {
+    color: var(--accent-color);
+}
